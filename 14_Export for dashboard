@@ -1,2 +1,0 @@
-lang_current.to_csv("../outputs/looker_exports/language_current.csv", index=False)
-lang_future.to_csv("../outputs/looker_exports/language_future.csv", index=False)
