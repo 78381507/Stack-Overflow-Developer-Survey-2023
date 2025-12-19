@@ -1,5 +1,0 @@
-lang_current = explode_multiselect(df, "LanguageHaveWorkedWith")
-lang_future = explode_multiselect(df, "LanguageWantToWorkWith")
-
-lang_current.head(10)
-lang_future.head(10)
