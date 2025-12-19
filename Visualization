@@ -1,0 +1,14 @@
+top_n = 10
+
+plt.figure()
+lang_current.head(top_n).plot(
+    kind="barh",
+    x="LanguageHaveWorkedWith",
+    y="count",
+    legend=False
+)
+plt.title("Top languages currently used")
+plt.xlabel("Number of respondents")
+plt.ylabel("")
+plt.gca().invert_yaxis()
+plt.show()
