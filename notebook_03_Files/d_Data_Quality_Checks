@@ -1,0 +1,10 @@
+# Missing values overview
+missing_pct = df.isna().mean().sort_values(ascending=False)
+missing_pct.head(10)
+
+# Duplicate check
+df.duplicated().sum()
+
+  **Observation:**
+- Dataset contains expected missing values due to survey structure
+- No critical duplication issues impacting aggregate analysis
